@@ -1,5 +1,11 @@
 import requests
 
+# manages the editable prompt system for the AI assistant
+# loads current prompt from file, allows admin to edit prompt
+# enhance prompt using gemini api
+# ask for confirmation to replace current prompt
+
+
 class PromptManager:
     def __init__(self):
         self.current_prompt_file = "current_prompt.txt"
