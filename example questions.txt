@@ -1,0 +1,111 @@
+Booking & Availability:
+	Do you have any courts available at 5 PM tomorrow?
+
+	Can I book a court for Sunday at 3 PM?
+
+	Is 8 AM an option for games?
+
+	What are your time slots for next Friday?
+
+	How many courts do you have?
+
+	Are courts available this weekend?
+
+	Can I play alone, or is doubles required?
+
+	Can I book a recurring weekly game?
+
+	How long is a court booking for?
+
+	What happens if I’m late?
+
+Pricing
+	How much does it cost for singles?
+
+	What’s the price for a doubles game?
+
+	Is equipment rental included in the price?
+
+	How much do coaching sessions cost?
+
+	Are there any discounts for students?
+
+	Do you offer membership pricing?
+
+	Is there a cancellation fee?
+
+	Can I pay online?
+
+	What’s the total if I need equipment too?
+
+Hours & Scheduling
+	What are your operating hours?
+
+	When is the last court time available?
+	
+	Are you open on holidays?
+
+	Can I book same-day games?
+
+	How early can I book in advance?
+
+	Can I schedule for a group of 6?
+
+
+Coaching & Training
+	Do you offer paddle coaching?
+
+	Who are your instructors?
+
+	Can beginners join training?
+
+	Is coaching done one-on-one?
+
+	How do I schedule a coaching session?
+
+
+
+Equipment
+	Do I need to bring my own paddle?
+
+	What kind of balls do you use?
+
+	Is equipment rental per player or per game?
+
+	Can I rent just the paddle?
+
+	Do you sell gear on-site?
+
+
+Location & Facilities
+	Where are your courts located?
+
+	Is there parking nearby?
+
+	Are there changing rooms?
+
+	Do you have indoor courts?
+
+	Do you have refreshments or water on-site?
+
+
+General & Follow-up Conversation
+	What’s paddle tennis exactly?
+
+	Can I bring kids with me?
+
+	What if it rains?
+
+	What should I wear to play?
+
+	Do you have tournaments or events?
+
+	Can I reschedule a booking?
+
+	Can I cancel my booking?
+
+	What should I do if I forgot my paddle?
+
+	Can you remind me of your services?
+
+	How do I contact you directly?
