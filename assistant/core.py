@@ -9,8 +9,9 @@ from assistant.responder import Responder
 class PaddleGameAssistant:
     def __init__(self):
         self.prompt_manager = PromptManager()
-        self.booking_mgr = BookingManager()
         self.responder = Responder(self.prompt_manager)
+        # Pass responder to booking manager for AI features
+        self.booking_mgr = BookingManager(self.responder)
 
     def run(self):
         print("🏓 Welcome to Paddle Game Assistant!")
@@ -27,9 +28,17 @@ class PaddleGameAssistant:
                     self.booking_mgr.schedule_game()
                 elif user_input in ['bookings']:
                     self.booking_mgr.view_bookings()
+                    # Optional: Add AI summary
+                    summary = self.booking_mgr.get_ai_booking_summary()
+                    if summary and len(summary) > 10:
+                        print(f"\n🤖 {summary}")
                 elif user_input in ['edit prompt']:
                     self.prompt_manager.show_prompt_menu()
                 else:
                     print("\n🤖 Assistant:", self.responder.send_to_gemini(user_input))
             except Exception as e:
                 print(f"[Error] {e}")
+
+if __name__ == "__main__":
+    assistant = PaddleGameAssistant()
+    assistant.run()
